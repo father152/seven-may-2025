@@ -1,0 +1,50 @@
+.autocard{
+    display: flex;
+   width: 25%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d6d4d4;
+    border-radius: 8px;
+    box-shadow: 10px 10px 5px rgb(185, 184, 184);
+    padding: 20px;
+    font-size: 15px;
+    margin: 10px;
+}
+.autocard:hover{
+    background-color: #b3b0b0;
+    transition: all 0.3s ease;
+}
+.autocard img{
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+    margin: 10px;
+}
+.autocard .id{
+    font-size:15px;
+   font-weight: bold;
+    color: #333;
+}
+
+.autocard .name{
+    font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    
+}
+.buy-button{
+    background-color: #3d5f3e;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+.buy-button:hover{
+    background-color: #2b3e2b;
+    color: yellow;
+}
