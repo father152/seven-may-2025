@@ -22,7 +22,9 @@ export default function Home() {
           </ul>
         </nav>
       </div>
-      <div className="home-right">RIGHT</div>
+      <div className="home-right">
+      <h2>RIGHT</h2>
+      </div>
     </div>
   );
 }

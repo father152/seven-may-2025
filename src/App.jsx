@@ -9,6 +9,8 @@ import House from "./Components/Golovna/Navigation/House"
 import Floor from './Components/Golovna/Navigation/Floor'
 import Flat from './Components/Golovna/Navigation/Flat'
 import Buy from './Components/Header/Portfolio/Buy'
+import Purchase from './Components/Header/Portfolio/Purchase'
+
 
 export default function App() {
   const router = createBrowserRouter([
@@ -48,7 +50,10 @@ export default function App() {
           path: "buy",
           element: <Buy />
         },
-
+{
+          path: "purchase",
+          element: <Purchase />
+        },
       ]
     }
   ]);
